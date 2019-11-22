@@ -20,4 +20,4 @@ archivo.o:archivo.c
 $(EXE): $(SRC)
 	gcc -DVERSION_JULIO $^ -o $@
 clean:
-	rm -vf main.o exit.o archivo.o app $(EXE)
+	rm -vf main.o exit.o archivo.o funcion.o app $(EXE)

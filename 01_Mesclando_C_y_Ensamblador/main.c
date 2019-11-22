@@ -11,6 +11,6 @@ int main()
 #ifndef VERSION_JULIO
   funcion_exit(255);
 #else
-  return funcion_exit(255);
+  return funcion_exit(0xa);
 #endif
 }
