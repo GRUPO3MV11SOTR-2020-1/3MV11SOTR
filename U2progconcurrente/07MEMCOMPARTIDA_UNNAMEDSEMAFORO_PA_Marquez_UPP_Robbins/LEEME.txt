@@ -1,5 +1,0 @@
-Para construir, usar:
-
-gcc shmem_unsemph.c -o shmem_unsemph -lpthread
-
-
