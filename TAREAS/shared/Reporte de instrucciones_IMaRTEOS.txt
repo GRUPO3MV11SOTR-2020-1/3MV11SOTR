@@ -1,0 +1,30 @@
+./doinstall
+cd gnarmarte
+rm -r marte_2.0_22Feb2017
+rm -rf marte_2.0....
+tar xzf
+mv marte_2.0.....
+vim .bashrc
+source .bashrc //reboot
+cd marte
+./minstall
+vim .bashrc
+echo $HOME
+./minstall
+vim .bashrc
+source .bashrc
+./minstall
+msetcurrentarch x86 i386 establecer arquitectura
+mkrtmarteuc && mkmarte    dos comandos en uns sola linea
+make hello_world.exe
+cp -r isoxv6/ isomarte   copiar los archivos que hay dentro del directorio
+cd isomarte
+rm kernel.elf
+rm kernelmemfs
+vim Makefile
+make clean
+ln  gnatmarte/.... .elf
+ls
+make
+make qemu -system-i386 -cdrom os.iso -m 256
+rm -r marte_2.0....
