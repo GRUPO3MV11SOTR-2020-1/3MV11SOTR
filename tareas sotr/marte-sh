@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# MarteOS
+export PATH=$HOME/apps/gnat/bin:$PATH:$HOME/apps/marte/utils
+export MARTE=$HOME/apps/marte
+export PERL5LIB=$HOME/apps/marte
+
+PROMPT='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\n\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\[\e[31;47m\]marte-sh\[\e[m\] \$ '
+
+# para usar el mismo shell del usuario, usar $SHELL
+exec bash --rcfile <(echo "PS1='$PROMPT'") -i
