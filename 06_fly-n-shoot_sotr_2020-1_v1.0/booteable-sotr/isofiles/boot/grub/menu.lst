@@ -1,0 +1,15 @@
+default 0
+timeout 10
+#hiddenmenu
+
+title xv6 rev11
+	kernel /boot/xv6memfs
+
+title MarteOS Ejemplo C
+	kernel /boot/martec
+
+title MarteOS Alarma
+	kernel /boot/alarma
+
+title MarteOS Fly'n'shoot
+	kernel /boot/flynshoot
